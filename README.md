@@ -1,2 +1,2 @@
 # WindeschleubaNMRSchool
- Collection of exercises for the Windeschleuba NMR School
+ Collection of exercises for the 2023 Windeschleuba NMR School
