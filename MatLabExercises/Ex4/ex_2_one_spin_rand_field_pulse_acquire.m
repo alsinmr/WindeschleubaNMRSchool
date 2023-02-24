@@ -131,7 +131,7 @@ B(:,4)=reshape(transpose(Iy),[],1);
 
 % normalize Eigenvectors
 for ii=1:size(B,1)
-    B(ii,:)=B(ii,:)/norm(B(ii,:));
+    B(:,ii)=B(:,ii)/norm(B(:,ii));
 end
 
 %check that B is unitary

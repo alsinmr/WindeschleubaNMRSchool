@@ -173,8 +173,8 @@ B(:,15)=reshape(transpose(I1x*I2y),[],1);
 B(:,16)=reshape(transpose(I1y*I2x),[],1);
 
 % normalize Eigenvectors
-for ii=1:size(B,1)
-    B(ii,:)=B(ii,:)/norm(B(ii,:));
+for ii=1:size(B,2)
+    B(:,ii)=B(:,ii)/norm(B(:,ii));
 end
 
 %check that B is unitary
